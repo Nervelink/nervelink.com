@@ -13,6 +13,7 @@
     <script>
         document.documentElement.dataset.theme = localStorage.getItem('theme') ?? 'dark';
     </script>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="s/index.css">
     <script type="module">class t extends HTMLElement { constructor() { super(); const e = this.dataset.link; this.querySelector(".preview")?.addEventListener("click", () => { window.open(e) }) } } customElements.define("game-preview", t);
     </script>
