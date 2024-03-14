@@ -14,3 +14,4 @@ jobs:
         server: ftp.cluster031.hosting.ovh.net
         username: nervelp
         password: ${{ secrets.DESPLEGAR }}
+        server-dir: www/
