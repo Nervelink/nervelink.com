@@ -317,3 +317,9 @@ a {
     font-family: BluuNext;
     src: url(../f/BluuNext-Bold.otf) format("otf")
 }
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
