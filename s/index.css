@@ -9,24 +9,87 @@
     --font-family-base: "PT Serif", sans-serif;
     --font-family-heading: "Bluu Next", sans-serif;
     --border-radius: 8px;
-    background-image: url(../background.png);
-    background-repeat: repeat
-}
 
+    --base-color: white;
+    --base-variant: #e8e9ed;
+    --text-color:#111528;
+    --secondary-text: #232738;
+    --primary-color: #3a435d;
+    --accent-color:#0071ff;
+}
+.darkmode{
+    --spacing: 24px;
+    --theme: #242424;
+    --backdrop-color: rgba(247, 247, 247, .54);
+    --shadow-color: rgba(0, 0, 0, .12);
+    --font-color: rgba(0, 0, 0, .87);
+    --font-color-contrast: rgb(7, 7, 7);
+    --font-color-secondary: rgba(0, 0, 0, .6);
+    --font-family-base: "PT Serif", sans-serif;
+    --font-family-heading: "Bluu Next", sans-serif;
+    --border-radius: 8px;
+
+    --base-color: #070b1d;
+    --base-variant: #101425;
+    --text-color:#ffffff;
+    --secondary-text: #a4a5b8;
+    --primary-color: #3a435d;
+    --accent-color:#0071ff;
+}
 * {
     box-sizing: border-box
+}
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+#theme-switch svg{
+    fill: var(--primary-color);
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
 }
 
 html {
     font-family: var(--font-family-base);
     color: var(--font-color);
     font-size: 16px;
-    line-height: 1.5
+    line-height: 1.5;
+
+}
+.darkmode{
+    font-family: var(--font-family-base);
+    color: var(--font-color);
+    font-size: 16px;
+    line-height: 1.5;
+
 }
 
 body {
     padding: 0;
-    margin: 0
+    margin: 0;
+    background-image: url(../background.png);
+    background-repeat: repeat;
+}
+.darkmode{
+    background-image: url(../background-darkmode.png);
+    background-repeat: repeat;
 }
 
 h1,
@@ -91,7 +154,7 @@ a {
     align-items: center;
     gap: var(--spacing);
     margin: 48px auto;
-    max-width: 320px
+    max-width: 320px;
 }
 
 .logofade-in {
@@ -105,7 +168,12 @@ a {
 .containerText {
     max-width: 496px;
     text-align: center;
-    margin: 0 auto
+    margin: 0 auto;
+    --font-color: rgba(0, 0, 0, .87);
+}
+.darkmode{
+    margin: 0 auto;
+    --font-color: #ffffff;
 }
 
 .containerCenter {
