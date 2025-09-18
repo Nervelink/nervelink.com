@@ -210,7 +210,8 @@ a {
     aspect-ratio: 16 / 9;
     background-color: transparent;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    overflow: hidden; /* asegura que video/imágenes no se salgan */
 }
 
 .preview-image {
@@ -401,8 +402,12 @@ a {
 
 .preview img,
 .preview video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* mantiene proporción y recorta si hace falta */
+    display: block;
+    pointer-events: none; /* evita que interfieran con el hover */
 }
