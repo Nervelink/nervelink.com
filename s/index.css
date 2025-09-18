@@ -391,3 +391,11 @@ a {
         transform: translate3d(0, 0, 1px) rotate(360deg);
     }
 }
+
+.preview-video {
+  max-width: 616px;   /* ancho máximo */
+  width: 100%;        /* ocupa todo el ancho del contenedor */
+  height: auto;       /* mantiene la proporción */
+  display: block;     /* elimina espacios raros */
+  border-radius: 8px; /* opcional, por si quieres bordes redondeados */
+}

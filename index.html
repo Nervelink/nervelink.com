@@ -59,11 +59,40 @@
       <div class="separator"></div>
     </div>
     <div class="card">
-      <game-preview data-link="https://store.steampowered.com/app/2907320/Kings_Origin/" class="">
+      <game-preview data-link="https://store.steampowered.com/app/2907320/Kings_Origin/">
         <div class="preview">
+          <!-- Imagen inicial -->
           <img src="game-dungeon.png" class="preview-image" alt="Kings Origin">
+
+          <!-- Video oculto al inicio -->
+          <video 
+            muted 
+            loop 
+            playsinline 
+            class="preview-video" 
+            style="display:none;">
+            <source src="video-dungeon.mp4" type="video/mp4">
+          </video>
         </div>
       </game-preview>
+    <script>
+      const preview = document.querySelector(".preview");
+      const img = preview.querySelector(".preview-image");
+      const video = preview.querySelector(".preview-video");
+
+      preview.addEventListener("mouseenter", () => {
+        img.style.display = "none";
+        video.style.display = "block";
+        video.currentTime = 0; // empieza desde el inicio
+        video.play();
+      });
+
+      preview.addEventListener("mouseleave", () => {
+        video.pause();
+        video.style.display = "none";
+        img.style.display = "block";
+      });
+    </script>
       <div class="info">
         <h3 class="title">Kings Origin</h3>
         <p class="description">
