@@ -392,10 +392,17 @@ a {
     }
 }
 
-.preview-video {
-  max-width: 616px;   /* ancho máximo */
-  width: 100%;        /* ocupa todo el ancho del contenedor */
-  height: auto;       /* mantiene la proporción */
-  display: block;     /* elimina espacios raros */
-  border-radius: 8px; /* opcional, por si quieres bordes redondeados */
+.preview {
+  position: relative;
+  width: 616px;
+  height: 353px;
+  overflow: hidden;
+}
+
+.preview img,
+.preview video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
