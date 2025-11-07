@@ -1,72 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="Video game developer" />
-    <meta
-      name="keywords"
-      content="nerve link, nervelink, gamedev, kings origin, roadmap"
-    />
-    <meta property="og:image" content="/game-dungeon.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="generator" content="Astro v2.0.8" />
-    <title>Nerve Link</title>
-    <link
-      rel="icon"
-      href="https://nerve-link.com/favicon.ico"
-      type="image/x-icon"
-    />
-    <!--<link rel="stylesheet" href="s/index.css">-->
-    <link rel="stylesheet" type="text/css" href="../s/rm.css" />
 
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-JQ5PBSD8G2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <meta name="description" content="Video game developer" />
+  <meta name="keywords" content="nerve link, nervelink, gamedev, kings origin, roadmap" />
+  <meta property="og:image" content="/game-dungeon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="generator" content="Astro v2.0.8" />
+  <title>Nerve Link</title>
+  <link rel="icon" href="https://nerve-link.com/favicon.ico" type="image/x-icon" />
+  <!--<link rel="stylesheet" href="s/index.css">-->
+  <link rel="stylesheet" type="text/css" href="../s/rm.css" />
 
-      gtag("config", "G-JQ5PBSD8G2");
-    </script>
-  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JQ5PBSD8G2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body>
-    <header>
-      <div class="container-new py-6 px-3 text-center">
-        <a href="https://nerve-link.com/">
-          <img src="../ko.png" alt="Roadmap" width="96" height="96" />
-        </a>
-        <ul class="nav list-style-none d-flex flex-justify-center f4">
-          <li>
-            <a class="d-inline-block m-2" href="https://nerve-link.com/"
-              >Nerve Link</a
-            >
-          </li>
-          <li>
-            <a
-              class="d-inline-block m-2 current"
-              href="https://nerve-link.com/rm/kingsorigin.html"
-              >Release Notes</a
-            >
-          </li>
-        </ul>
+    gtag("config", "G-JQ5PBSD8G2");
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="container-new py-6 px-3 text-center">
+      <a href="https://nerve-link.com/">
+        <img src="../ko.png" alt="Roadmap" width="96" height="96" />
+      </a>
+      <ul class="nav list-style-none d-flex flex-justify-center f4">
+        <li>
+          <a class="d-inline-block m-2" href="https://nerve-link.com/">Nerve Link</a>
+        </li>
+        <li>
+          <a class="d-inline-block m-2 current" href="https://nerve-link.com/rm/kingsorigin.html">Release Notes</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container-new">
+    <div class="col-md-8 mx-auto">
+      <div class="p-3 mb-4 border-bottom border-translucent-white">
+        <h1 class="f1-light text-white">Release notes for Kings Origin</h1>
       </div>
-    </header>
 
-    <div class="container-new">
-      <div class="col-md-8 mx-auto">
-        <div class="p-3 mb-4 border-bottom border-translucent-white">
-          <h1 class="f1-light text-white">Release notes for Kings Origin</h1>
-        </div>
-
-        <div id="release-notes">
-          <!--<section class="release-note position-relative container-new py-6 px-3 text-left">
+      <div id="release-notes">
+        <!--<section class="release-note position-relative container-new py-6 px-3 text-left">
           <header class="timeline-decorator d-flex flex-items-center mb-3"><span
               class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">1.0.0</span>
             <h2 class="f3-light css-truncate css-truncate-target">Development</h2>
@@ -91,18 +76,39 @@
             </li>
           </ul>
         </section>-->
-      <section class="release-note position-relative container-new py-6 px-3 text-left">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
           <header class="timeline-decorator d-flex flex-items-center mb-3"><span
               class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.87.0</span>
             <h2 class="f3-light css-truncate css-truncate-target">Development</h2>
           </header>
-            <li class="d-flex flex-items-start mb-2">
-              <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">Added new decorations for the dungeon. - <a href="https://nerve-link.com/">#306</a></div>
-            </li>
-          </section>
+          <li class="d-flex flex-items-start mb-2">
+            <div class="change-badge change-badge-fixed">Fixed</div>
+            <div class="change-description">Adjustments to the balance of the new rooms. - <a
+                href="https://nerve-link.com/">#310</a></div>
+          </li>
+          <li class="d-flex flex-items-start mb-2">
+            <div class="change-badge change-badge-improved">Improved</div>
+            <div class="change-description">Lineage expansion, adding the initial elements. - <a
+                href="https://nerve-link.com/">#309</a></div>
+          </li>
+          <li class="d-flex flex-items-start mb-2">
+            <div class="change-badge change-badge-improved">Improved</div>
+            <div class="change-description">Information was added to the pause panel. - <a
+                href="https://nerve-link.com/">#308</a></div>
+          </li>
+          <li class="d-flex flex-items-start mb-2">
+            <div class="change-badge change-badge-added">Added</div>
+            <div class="change-description">New victory screen with combat details. - <a
+                href="https://nerve-link.com/">#307</a></div>
+          </li>
+          <li class="d-flex flex-items-start mb-2">
+            <div class="change-badge change-badge-added">Added</div>
+            <div class="change-description">Added new decorations for the dungeon. - <a
+                href="https://nerve-link.com/">#306</a></div>
+          </li>
+        </section>
 
-      <section class="release-note position-relative container-new py-6 px-3 text-left">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
           <header class="timeline-decorator d-flex flex-items-center mb-3"><span
               class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.86.0</span>
             <h2 class="f3-light css-truncate css-truncate-target">September 1st, 2025</h2>
@@ -110,55 +116,69 @@
           <ul class="list-style-none change-log">
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">+ 70 new relics, including basic ones and event-obtainable ones. - <a href="https://nerve-link.com/">#305</a></div>
+              <div class="change-description">+ 70 new relics, including basic ones and event-obtainable ones. - <a
+                  href="https://nerve-link.com/">#305</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">+ 40 new units, including basic units and evolutions. - <a href="https://nerve-link.com/">#304</a></div>
+              <div class="change-description">+ 40 new units, including basic units and evolutions. - <a
+                  href="https://nerve-link.com/">#304</a></div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The unit disappears when it’s replaced by another in a room. - <a href="https://discord.com/channels/1217101233425350656/1432310843420180621">ds#65</a> - Thanks @systemid0x00</div>
+              <div class="change-description">The unit disappears when it’s replaced by another in a room. - <a
+                  href="https://discord.com/channels/1217101233425350656/1432310843420180621">ds#65</a> - Thanks
+                @systemid0x00</div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 The reliquary has been improved, making it stackable and more organized. -
-                <a href="https://discord.com/channels/1217101233425350656/1429040623746420776">ds#66</a></div>
+                <a href="https://discord.com/channels/1217101233425350656/1429040623746420776">ds#66</a>
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 The storage has been improved, making it stackable and more organized. -
-                <a href="https://discord.com/channels/1217101233425350656/1429040207574859868">ds#65</a></div>
-            </li>
-          <li class="d-flex flex-items-start mb-2">
-              <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The room-swapping option has been fixed and can now be used normally. - <a href="https://nerve-link.com/">#303</a></div>
+                <a href="https://discord.com/channels/1217101233425350656/1429040207574859868">ds#65</a>
+              </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Status effects are now properly cleared at the end of each battle. - <a href="https://nerve-link.com/">#302</a></div>
+              <div class="change-description">The room-swapping option has been fixed and can now be used normally. - <a
+                  href="https://nerve-link.com/">#303</a></div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Forced dungeon expansions no longer delete rooms. - <a href="https://discord.com/channels/1217101233425350656/1429008623757168701">ds#63</a></div>
+              <div class="change-description">Status effects are now properly cleared at the end of each battle. - <a
+                  href="https://nerve-link.com/">#302</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The game would freeze when unlocking certain units in the lineage. - <a href="https://discord.com/channels/1217101233425350656/1429005469699018884">ds#62</a></div>
+              <div class="change-description">Forced dungeon expansions no longer delete rooms. - <a
+                  href="https://discord.com/channels/1217101233425350656/1429008623757168701">ds#63</a></div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">The game would freeze when unlocking certain units in the lineage. - <a
+                  href="https://discord.com/channels/1217101233425350656/1429005469699018884">ds#62</a></div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">The "Camp" journey now allows you to perform the Agoge and hire or dismiss adventurers. - <a href="https://nerve-link.com/">#301</a></div>
+              <div class="change-description">The "Camp" journey now allows you to perform the Agoge and hire or dismiss
+                adventurers. - <a href="https://nerve-link.com/">#301</a></div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">+15 new starting units, +20 new starting abilities. - <a href="https://nerve-link.com/">#300</a></div>
+              <div class="change-description">+15 new starting units, +20 new starting abilities. - <a
+                  href="https://nerve-link.com/">#300</a></div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">New lineage system, rebalanced and featuring a semi-linear unlock chain. - <a href="https://discord.com/channels/1217101233425350656/1426562675306922004">ds#60</a></div>
+              <div class="change-description">New lineage system, rebalanced and featuring a semi-linear unlock chain. -
+                <a href="https://discord.com/channels/1217101233425350656/1426562675306922004">ds#60</a>
+              </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-removed">Removed</div>
@@ -169,139 +189,172 @@
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Expansions are now enforced even if you don’t enter the dungeon. - <a href="https://discord.com/channels/1217101233425350656/1426515123836555305">ds#59</a> - Thanks @richar4800</div>
+              <div class="change-description">Expansions are now enforced even if you don’t enter the dungeon. - <a
+                  href="https://discord.com/channels/1217101233425350656/1426515123836555305">ds#59</a> - Thanks
+                @richar4800</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Units now follow the path correctly. - <a href="https://discord.com/channels/1217101233425350656/1426515123836555305">ds#59</a> - Thanks @richar4800</div>
+              <div class="change-description">Units now follow the path correctly. - <a
+                  href="https://discord.com/channels/1217101233425350656/1426515123836555305">ds#59</a> - Thanks
+                @richar4800</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The leaderboard reports the overall position well. - <a href="https://discord.com/channels/1217101233425350656/1426165388777095188">ds#56</a> - Thanks @panfuricus</div>
+              <div class="change-description">The leaderboard reports the overall position well. - <a
+                  href="https://discord.com/channels/1217101233425350656/1426165388777095188">ds#56</a> - Thanks
+                @panfuricus</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">New animated logo icon for the Discord server. - <a href="https://discord.com/channels/1217101233425350656/1426173003426697289">ds#57</a> - Thanks @kao_ri_san</div>
+              <div class="change-description">New animated logo icon for the Discord server. - <a
+                  href="https://discord.com/channels/1217101233425350656/1426173003426697289">ds#57</a> - Thanks
+                @kao_ri_san</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Unit selection in the selector now correctly selects and displays the chosen unit. - <a href="https://discord.com/channels/1217101233425350656/1426319644418900008">ds#58</a></div>
+              <div class="change-description">Unit selection in the selector now correctly selects and displays the
+                chosen unit. - <a href="https://discord.com/channels/1217101233425350656/1426319644418900008">ds#58</a>
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 The "Camp" journey has been renamed to "Throne," and a new "Camp" journey has been added. -
-                <a href="https://nerve-link.com/">#298</a></div>
+                <a href="https://nerve-link.com/">#298</a>
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">The skill system now differentiates between active and passive skills, and they have ranks and evolutions. - <a href="https://nerve-link.com/">#297</a></div>
+              <div class="change-description">The skill system now differentiates between active and passive skills, and
+                they have ranks and evolutions. - <a href="https://nerve-link.com/">#297</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">New beta support for Traditional Chinese, Korean, Russian, Italian, German, and French. - <a href="https://nerve-link.com/">#296</a></div>
+              <div class="change-description">New beta support for Traditional Chinese, Korean, Russian, Italian,
+                German, and French. - <a href="https://nerve-link.com/">#296</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 Display in the room the attribute increases of units, whether from the room itself or from abilities. -
-                <a href="https://discord.com/channels/1217101233425350656/1424337433419452509">#295</a></div>
+                <a href="https://discord.com/channels/1217101233425350656/1424337433419452509">#295</a>
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">Dungeon/Path button. The dungeon/path button doesn’t respond on the first click. - <a href="https://discord.com/channels/1217101233425350656/1420017947916636234">ds#40</a> - Thanks @systemid0x00</div>
+              <div class="change-description">Dungeon/Path button. The dungeon/path button doesn’t respond on the first
+                click. - <a href="https://discord.com/channels/1217101233425350656/1420017947916636234">ds#40</a> -
+                Thanks @systemid0x00</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">When units attack the enemy as a group, they move forward and don’t return. - <a href="https://discord.com/channels/1217101233425350656/1424335068402286683">ds#51</a> - Thanks @pincho3202</div>
+              <div class="change-description">When units attack the enemy as a group, they move forward and don’t
+                return. - <a href="https://discord.com/channels/1217101233425350656/1424335068402286683">ds#51</a> -
+                Thanks @pincho3202</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">An enemy is dealing absurd damage to the lord. - <a href="https://discord.com/channels/1217101233425350656/1424336302555533373">ds#53</a> - Thanks @pincho3202</div>
+              <div class="change-description">An enemy is dealing absurd damage to the lord. - <a
+                  href="https://discord.com/channels/1217101233425350656/1424336302555533373">ds#53</a> - Thanks
+                @pincho3202</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">D+20 / D+21 Infinite battles. (Critical) - <a href="https://discord.com/channels/1217101233425350656/1423109391758135399">ds#48</a></div>
+              <div class="change-description">D+20 / D+21 Infinite battles. (Critical) - <a
+                  href="https://discord.com/channels/1217101233425350656/1423109391758135399">ds#48</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 Auto-balancing of units and their primary abilities. -
-                <a href="https://nerve-link.com/">#294</a></div>
+                <a href="https://nerve-link.com/">#294</a>
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The dungeon breaks when expanded with the expansion relics. - <a href="https://discord.com/channels/1217101233425350656/1423352210758041600">ds#50</a> - Thanks @kao_ri_san</div>
+              <div class="change-description">The dungeon breaks when expanded with the expansion relics. - <a
+                  href="https://discord.com/channels/1217101233425350656/1423352210758041600">ds#50</a> - Thanks
+                @kao_ri_san</div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">Maps and difficulty have icons with information that define the map style and difficulty. - <a href="https://nerve-link.com/">#293</a></div>
+              <div class="change-description">Maps and difficulty have icons with information that define the map style
+                and difficulty. - <a href="https://nerve-link.com/">#293</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">Unit marker for creating other units in the recruitment selection. - <a href="https://nerve-link.com/">#292</a></div>
+              <div class="change-description">Unit marker for creating other units in the recruitment selection. - <a
+                  href="https://nerve-link.com/">#292</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">When hovering over units in the dungeon, their health, mana, and next ability to be used are displayed. - <a href="https://nerve-link.com/">#291</a></div>
+              <div class="change-description">When hovering over units in the dungeon, their health, mana, and next
+                ability to be used are displayed. - <a href="https://nerve-link.com/">#291</a></div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 Progressive start for new players has been balanced. -
-                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks @artmato</div>
+                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks
+                @artmato
+              </div>
             </li>
-          <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 Now infinite waves are triggered from a button. -
-                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks @artmato</div>
+                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks
+                @artmato
+              </div>
             </li>
-           <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-improved">Improved</div>
               <div class="change-description">
                 The unit cost calculation logic has been balanced by difficulty. -
-                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks @artmato</div>
-            </li>
-          <li class="d-flex flex-items-start mb-2">
-              <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">After the boss, an infinite wave will no longer start. - <a href="https://nerve-link.com/">#290</a> - Thanks @pincho3202</div>
+                <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a> - Thanks
+                @artmato
+              </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
-              <div class="change-description">The lineage text no longer grows indefinitely in the Lineage panel. - <a href="https://discord.com/channels/1217101233425350656/1422899808527581224">ds#47</a> - Thanks @artmato</div>
+              <div class="change-description">After the boss, an infinite wave will no longer start. - <a
+                  href="https://nerve-link.com/">#290</a> - Thanks @pincho3202</div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">The lineage text no longer grows indefinitely in the Lineage panel. - <a
+                  href="https://discord.com/channels/1217101233425350656/1422899808527581224">ds#47</a> - Thanks
+                @artmato</div>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">New pop-up text system with larger size. - <a href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a>. - Thanks @artmato</div>
+              <div class="change-description">New pop-up text system with larger size. - <a
+                  href="https://discord.com/channels/1217101233425350656/1422469560669569044">ds#46</a>. - Thanks
+                @artmato</div>
             </li>
             </li>
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
-              <div class="change-description">Added a button to change dungeon speed to x2 / x3. - <a href="https://nerve-link.com/">#289</a></div>
+              <div class="change-description">Added a button to change dungeon speed to x2 / x3. - <a
+                  href="https://nerve-link.com/">#289</a></div>
             </li>
-            </ul>
+          </ul>
         </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.85.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                October 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.85.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              October 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
               <div class="change-description">
                 Option to animate texts or display them instantly. -
-                <a href="https://nerve-link.com/">#288</a
-                > - Thanks @artmato
+                <a href="https://nerve-link.com/">#288</a> - Thanks @artmato
               </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
@@ -315,27 +368,22 @@
               <div class="change-badge change-badge-added">Added</div>
               <div class="change-description">
                 In the room installation, new information appears and the installation can be canceled. -
-                <a href="https://nerve-link.com/">#286</a>  - Thanks @carlosbili
+                <a href="https://nerve-link.com/">#286</a> - Thanks @carlosbili
               </div>
             </li>
-             <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
               <div class="change-description">
                 Fixed the cropped UI / game display issue on dual monitors. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1421307586023653526"
-                  >ds#44</a
-                > - Thanks @Jaedin
+                <a href="https://discord.com/channels/1217101233425350656/1421307586023653526">ds#44</a> - Thanks
+                @Jaedin
               </div>
             </li>
-              <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-fixed">Fixed</div>
               <div class="change-description">
                 Used items are consumed and removed from storage. -
-                <a
-                  href="https://nerve-link.com/"
-                  >#285</a
-                >
+                <a href="https://nerve-link.com/">#285</a>
               </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
@@ -345,7 +393,7 @@
                 <a href="https://nerve-link.com/">#284</a>
               </div>
             </li>
-              <li class="d-flex flex-items-start mb-2">
+            <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
               <div class="change-description">
                 New Achilles Arc — 2 units / 2 rooms / 1 event. -
@@ -355,8 +403,8 @@
             <li class="d-flex flex-items-start mb-2">
               <div class="change-badge change-badge-added">Added</div>
               <div class="change-description">
-                New statistics section along with ranking by difficulties. - <a href="https://discord.com/channels/1217101233425350656/1421204499594215425">ds#45</a
-                >
+                New statistics section along with ranking by difficulties. - <a
+                  href="https://discord.com/channels/1217101233425350656/1421204499594215425">ds#45</a>
                 - Thanks @endro79
               </div>
             </li>
@@ -365,10 +413,7 @@
               <div class="change-description">
                 Raids now give the appropriate rewards, and the victory UI/UX
                 has been improved. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1420018461945495623"
-                  >ds#41</a
-                >
+                <a href="https://discord.com/channels/1217101233425350656/1420018461945495623">ds#41</a>
               </div>
             </li>
             <li class="d-flex flex-items-start mb-2">
@@ -376,10 +421,7 @@
               <div class="change-description">
                 Combat rooms now accommodate the maximum number of possible
                 enemies. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1420388103893422131"
-                  >ds#42</a
-                >
+                <a href="https://discord.com/channels/1217101233425350656/1420388103893422131">ds#42</a>
                 - Thanks @kao_ri_san
               </div>
             </li>
@@ -388,10 +430,7 @@
               <div class="change-description">
                 Now abilities can only be selected/unlocked if you have the
                 required maximum mana. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1419798877397192775"
-                  >ds#36</a
-                >
+                <a href="https://discord.com/channels/1217101233425350656/1419798877397192775">ds#36</a>
                 - Thanks @kao_ri_san
               </div>
             </li>
@@ -406,10 +445,7 @@
               <div class="change-badge change-badge-fixed">Fixed</div>
               <div class="change-description">
                 Units now display DPS correctly when the checkbox is enabled. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1419322636764319774"
-                  >ds#39</a
-                >
+                <a href="https://discord.com/channels/1217101233425350656/1419322636764319774">ds#39</a>
                 - Thanks @systemid0x00
               </div>
             </li>
@@ -440,10 +476,7 @@
               <div class="change-description">
                 Fixed so that units display their DPS only when the settings
                 option is enabled, and hide it when it’s disabled. -
-                <a
-                  href="https://discord.com/channels/1217101233425350656/1419322636764319774"
-                  >#278</a
-                >
+                <a href="https://discord.com/channels/1217101233425350656/1419322636764319774">#278</a>
                 - Thanks @systemid0x00
               </div>
             </li>
@@ -489,517 +522,452 @@
                 <a href="https://nerve-link.com/">#272</a>
               </div>
             </li>
-            </ul>
-          </section>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.84.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                September 15th, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New general and lord statistics panel. -
-                  <a href="https://nerve-link.com/">#271</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Units were duplicated in the reserve list in phantom mode. -
-                  <a href="https://nerve-link.com/">#270</a> - Thanks @uri4084
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Map #2 did not load with the preset configuration. -
-                  <a href="https://nerve-link.com/">#269</a> - Thanks @uri4084
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  The reliquary now contains the new relics obtained in the
-                  dungeon. - <a href="https://nerve-link.com/">#268</a> - Thanks
-                  @uri4084
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Adjusted the renown system to match the current difficulty. -
-                  <a href="https://nerve-link.com/">#267</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Added new units, events, relics, and rooms. -
-                  <a href="https://nerve-link.com/">#266</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Fixed an issue where the explorable map loading would
-                  sometimes break. - <a href="https://nerve-link.com/">#265</a>-
-                  Thanks @systemid0x00
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Steam achievements updated. -
-                  <a href="https://nerve-link.com/">#264</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.84.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              September 15th, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New general and lord statistics panel. -
+                <a href="https://nerve-link.com/">#271</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Units were duplicated in the reserve list in phantom mode. -
+                <a href="https://nerve-link.com/">#270</a> - Thanks @uri4084
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Map #2 did not load with the preset configuration. -
+                <a href="https://nerve-link.com/">#269</a> - Thanks @uri4084
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                The reliquary now contains the new relics obtained in the
+                dungeon. - <a href="https://nerve-link.com/">#268</a> - Thanks
+                @uri4084
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Adjusted the renown system to match the current difficulty. -
+                <a href="https://nerve-link.com/">#267</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Added new units, events, relics, and rooms. -
+                <a href="https://nerve-link.com/">#266</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Fixed an issue where the explorable map loading would
+                sometimes break. - <a href="https://nerve-link.com/">#265</a>-
+                Thanks @systemid0x00
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Steam achievements updated. -
+                <a href="https://nerve-link.com/">#264</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.83.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                September 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Persistence for unit equipment (the system is not yet
-                  functional). - <a href="https://nerve-link.com/">#263</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Stability in the core of the room combat system. -
-                  <a href="https://nerve-link.com/">#262</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Changed the pathfinding system to reverse BFS. -
-                  <a href="https://nerve-link.com/">#261</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Steam page screenshots. -
-                  <a href="https://nerve-link.com/">#260</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.83.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              September 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Persistence for unit equipment (the system is not yet
+                functional). - <a href="https://nerve-link.com/">#263</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Stability in the core of the room combat system. -
+                <a href="https://nerve-link.com/">#262</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Changed the pathfinding system to reverse BFS. -
+                <a href="https://nerve-link.com/">#261</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Steam page screenshots. -
+                <a href="https://nerve-link.com/">#260</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.82.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                June 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Steam page published. -
-                  <a href="https://nerve-link.com/">#259</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New Kings Origin teaser. -
-                  <a href="https://nerve-link.com/">#258</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Full support for the Japanese language. -
-                  <a href="https://nerve-link.com/">#256</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Improved algorithm for obtaining souls. -
-                  <a href="https://nerve-link.com/">#255</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Persistence system for steam (Cloud). -
-                  <a href="https://nerve-link.com/">#254</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Minor fixes for the interface. -
-                  <a href="https://nerve-link.com/">#257</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.82.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              June 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Steam page published. -
+                <a href="https://nerve-link.com/">#259</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New Kings Origin teaser. -
+                <a href="https://nerve-link.com/">#258</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Full support for the Japanese language. -
+                <a href="https://nerve-link.com/">#256</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Improved algorithm for obtaining souls. -
+                <a href="https://nerve-link.com/">#255</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Persistence system for steam (Cloud). -
+                <a href="https://nerve-link.com/">#254</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Minor fixes for the interface. -
+                <a href="https://nerve-link.com/">#257</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.81.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                May 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Wave creation has a new algorithm. -
-                  <a href="https://nerve-link.com/">#251</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New units and rooms. -
-                  <a href="https://nerve-link.com/">#253</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Internal data collection system. -
-                  <a href="https://nerve-link.com/">#252</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-removed">Removed</div>
-                <div class="change-description">
-                  Removed wave pattern, by level and day reached. -
-                  <a href="https://nerve-link.com/">#250</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.81.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              May 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Wave creation has a new algorithm. -
+                <a href="https://nerve-link.com/">#251</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New units and rooms. -
+                <a href="https://nerve-link.com/">#253</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Internal data collection system. -
+                <a href="https://nerve-link.com/">#252</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-removed">Removed</div>
+              <div class="change-description">
+                Removed wave pattern, by level and day reached. -
+                <a href="https://nerve-link.com/">#250</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.80.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                April 15th, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New controls for combat. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1362017467857109193"
-                    >ds#34</a
-                  >
-                  - Thanks @pincho3202
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Display information in keywords / skills / descriptions. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1361312389936582666"
-                    >ds#31</a
-                  >
-                  - Thanks @systemid0x00
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Improved difficulty and map selection. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1362017902907232388"
-                    >ds#35</a
-                  >
-                  - Thanks @pincho3202
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Road block depending on the player's choice. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1362018120591605862"
-                    >ds#32</a
-                  >
-                  - Thanks @pincho3202
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Steamdeck performance issues and flickering. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1360197566179840205"
-                    >ds#30</a
-                  >
-                  - Thanks @systemid0x00
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Restart when changing language due to performance issues. -
-                  <a href="https://nerve-link.com/">#249</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.80.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              April 15th, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New controls for combat. -
+                <a href="https://discord.com/channels/1217101233425350656/1362017467857109193">ds#34</a>
+                - Thanks @pincho3202
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Display information in keywords / skills / descriptions. -
+                <a href="https://discord.com/channels/1217101233425350656/1361312389936582666">ds#31</a>
+                - Thanks @systemid0x00
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Improved difficulty and map selection. -
+                <a href="https://discord.com/channels/1217101233425350656/1362017902907232388">ds#35</a>
+                - Thanks @pincho3202
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Road block depending on the player's choice. -
+                <a href="https://discord.com/channels/1217101233425350656/1362018120591605862">ds#32</a>
+                - Thanks @pincho3202
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Steamdeck performance issues and flickering. -
+                <a href="https://discord.com/channels/1217101233425350656/1360197566179840205">ds#30</a>
+                - Thanks @systemid0x00
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Restart when changing language due to performance issues. -
+                <a href="https://nerve-link.com/">#249</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.79.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                April 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New asynchronous persistence system for Steam. -
-                  <a href="https://nerve-link.com/">#248</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Combat takes into consideration the various status effects. -
-                  <a href="https://nerve-link.com/">#247</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Change the mana position in the user interface. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1359482219995070545"
-                    >ds#29</a
-                  >
-                  - Thanks @kao_ri_san
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Fine-tuned unit pathfinding -
-                  <a href="https://nerve-link.com/">#246</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  User interface for rewards earned in combat -
-                  <a href="https://nerve-link.com/">#245</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Broken UI when receiving a treasure in the treasure panel. -
-                  <a
-                    href="https://discord.com/channels/1217101233425350656/1358834713703350353"
-                    >ds#28</a
-                  >
-                  - Thanks @kao_ri_san
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.79.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              April 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New asynchronous persistence system for Steam. -
+                <a href="https://nerve-link.com/">#248</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Combat takes into consideration the various status effects. -
+                <a href="https://nerve-link.com/">#247</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Change the mana position in the user interface. -
+                <a href="https://discord.com/channels/1217101233425350656/1359482219995070545">ds#29</a>
+                - Thanks @kao_ri_san
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Fine-tuned unit pathfinding -
+                <a href="https://nerve-link.com/">#246</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                User interface for rewards earned in combat -
+                <a href="https://nerve-link.com/">#245</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Broken UI when receiving a treasure in the treasure panel. -
+                <a href="https://discord.com/channels/1217101233425350656/1358834713703350353">ds#28</a>
+                - Thanks @kao_ri_san
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.78.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                March 15th, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  First Batch of Starter Relics -
-                  <a href="https://nerve-link.com/">#244</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Functionality of current units skills up to SS rank. -
-                  <a href="https://nerve-link.com/">#243</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Lord Cid fully implemented for Early Access. -
-                  <a href="https://nerve-link.com/">#242</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Steam achievements location. -
-                  <a href="https://nerve-link.com/">#241</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.78.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              March 15th, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                First Batch of Starter Relics -
+                <a href="https://nerve-link.com/">#244</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Functionality of current units skills up to SS rank. -
+                <a href="https://nerve-link.com/">#243</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Lord Cid fully implemented for Early Access. -
+                <a href="https://nerve-link.com/">#242</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Steam achievements location. -
+                <a href="https://nerve-link.com/">#241</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.77.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                March 1st, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  New Event System -
-                  <a href="https://nerve-link.com/">#240</a> - Thanks
-                  @kao_ri_san
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  50+ Events for Lineage -
-                  <a href="https://nerve-link.com/">#239</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  Data Loading and Unloading When Player Assets Break the Game -
-                  <a href="https://nerve-link.com/">#238</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-improved">Improved</div>
-                <div class="change-description">
-                  User Interface for When Steam Friends Exceed 300 -
-                  <a href="https://nerve-link.com/">#237</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Japanese Fonts, Missing Characters Causing Graphical Issues in
-                  Text - <a href="https://nerve-link.com/">#236</a>
-                </div>
-              </li>
-            </ul>
-          </section>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.77.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              March 1st, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                New Event System -
+                <a href="https://nerve-link.com/">#240</a> - Thanks
+                @kao_ri_san
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                50+ Events for Lineage -
+                <a href="https://nerve-link.com/">#239</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                Data Loading and Unloading When Player Assets Break the Game -
+                <a href="https://nerve-link.com/">#238</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-improved">Improved</div>
+              <div class="change-description">
+                User Interface for When Steam Friends Exceed 300 -
+                <a href="https://nerve-link.com/">#237</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Japanese Fonts, Missing Characters Causing Graphical Issues in
+                Text - <a href="https://nerve-link.com/">#236</a>
+              </div>
+            </li>
+          </ul>
+        </section>
 
-          <section
-            class="release-note position-relative container-new py-6 px-3 text-left"
-          >
-            <header class="timeline-decorator d-flex flex-items-center mb-3">
-              <span
-                class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold"
-                >0.76.0</span
-              >
-              <h2 class="f3-light css-truncate css-truncate-target">
-                February 15th, 2025
-              </h2>
-            </header>
-            <ul class="list-style-none change-log">
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Steam Integration - <a href="https://nerve-link.com/">#235</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-added">Added</div>
-                <div class="change-description">
-                  Steam Friends Leaderboards -
-                  <a href="https://nerve-link.com/">#234</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-removed">Removed</div>
-                <div class="change-description">
-                  Equipment System (Weapons, Armor) for Post-Early Access -
-                  <a href="https://nerve-link.com/">#233</a>
-                </div>
-              </li>
-              <li class="d-flex flex-items-start mb-2">
-                <div class="change-badge change-badge-fixed">Fixed</div>
-                <div class="change-description">
-                  Excessive Load Times in Late-Game Sessions -
-                  <a href="https://nerve-link.com/">#232</a>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </div>
+        <section class="release-note position-relative container-new py-6 px-3 text-left">
+          <header class="timeline-decorator d-flex flex-items-center mb-3">
+            <span class="version-badge d-inline-block bg-purple p-1 rounded-1 mr-2 text-bold">0.76.0</span>
+            <h2 class="f3-light css-truncate css-truncate-target">
+              February 15th, 2025
+            </h2>
+          </header>
+          <ul class="list-style-none change-log">
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Steam Integration - <a href="https://nerve-link.com/">#235</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-added">Added</div>
+              <div class="change-description">
+                Steam Friends Leaderboards -
+                <a href="https://nerve-link.com/">#234</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-removed">Removed</div>
+              <div class="change-description">
+                Equipment System (Weapons, Armor) for Post-Early Access -
+                <a href="https://nerve-link.com/">#233</a>
+              </div>
+            </li>
+            <li class="d-flex flex-items-start mb-2">
+              <div class="change-badge change-badge-fixed">Fixed</div>
+              <div class="change-description">
+                Excessive Load Times in Late-Game Sessions -
+                <a href="https://nerve-link.com/">#232</a>
+              </div>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
+  </div>
 
-    <footer class="mb-6 px-3 text-gray text-center alt-text-small">
-      <p class="copyright">© 2025 NERVE LINK</p>
-    </footer>
-  </body>
+  <footer class="mb-6 px-3 text-gray text-center alt-text-small">
+    <p class="copyright">© 2025 NERVE LINK</p>
+  </footer>
+</body>
+
 </html>
