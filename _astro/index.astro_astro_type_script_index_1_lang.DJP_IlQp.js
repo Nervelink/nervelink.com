@@ -1,0 +1,1 @@
+import{i,s as a,a as o,t as g,g as s}from"./i18n.DM54_PA2.js";i();!localStorage.getItem("lang")&&window.__initialLang&&a(window.__initialLang);function e(){document.querySelectorAll("[data-i18n]").forEach(t=>{const n=t.getAttribute("data-i18n");n&&(t.textContent=g(n))}),document.documentElement.lang=s()}e();o(e);window.__setLang=t=>{a(t)};

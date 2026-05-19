@@ -1,0 +1,1 @@
+import{s as c,a as r,g as o}from"./i18n.DM54_PA2.js";const s=document.querySelectorAll(".header-lang .lang-btn");function n(){const t=o();s.forEach(a=>{const e=a.dataset.lang===t;a.setAttribute("aria-pressed",String(e)),a.classList.toggle("active",e)})}s.forEach(t=>{t.addEventListener("click",()=>c(t.dataset.lang))});n();r(n);
