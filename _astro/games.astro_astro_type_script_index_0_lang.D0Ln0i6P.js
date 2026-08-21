@@ -1,0 +1,1 @@
+import{a as i,s as o,i as s,t as d,g}from"./i18n.DQ1NNgu6.js";function a(){document.querySelectorAll("[data-i18n]").forEach(t=>{const n=t.getAttribute("data-i18n");n&&(t.textContent=d(n))}),document.documentElement.lang=g()}function e(){s(),a()}e();i(a);document.addEventListener("astro:page-load",()=>{e()});window.__setLang=t=>{o(t)};
