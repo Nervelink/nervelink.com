@@ -1,0 +1,1 @@
+import{a as r,g as e}from"./i18n.DQ1NNgu6.js";const t=document.querySelectorAll("[data-roadmap='kingsorigin']");function a(){const o=e(),n=`/rm/kingsorigin_${o==="ja"?"jp":o}.html`;t.forEach(i=>{i.href=n})}a();r(a);document.addEventListener("astro:page-load",a);
