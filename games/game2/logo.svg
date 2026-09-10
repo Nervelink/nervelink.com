@@ -1,0 +1,11 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dungeon Depths</title>
+  <desc id="desc">Dungeon Depths logo</desc>
+  <rect width="512" height="512" rx="96" fill="#17121f"/>
+  <path d="M112 392V235c0-83 64-131 144-131s144 48 144 131v157H112Z" fill="none" stroke="#d9c7ff" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M176 392V257c0-46 35-76 80-76s80 30 80 76v135" fill="none" stroke="#8f6ad6" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M256 181v211" stroke="#d9c7ff" stroke-width="20"/>
+  <path d="M145 424h222" stroke="#d9c7ff" stroke-width="18" stroke-linecap="round"/>
+  <text x="256" y="70" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="4">DUNGEON</text>
+  <text x="256" y="480" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" letter-spacing="5">DEPTHS</text>
+</svg>
