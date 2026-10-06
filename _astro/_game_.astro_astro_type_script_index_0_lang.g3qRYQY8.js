@@ -1,0 +1,1 @@
+import{i as a,a as o,t as i,g as c}from"./i18n.CkHniaQF.js";a();function e(){document.querySelectorAll("[data-i18n]").forEach(t=>{const n=t.dataset.i18n;n&&(t.textContent=i(n))}),document.documentElement.lang=c()}e();o(e);

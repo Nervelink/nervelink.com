@@ -1,0 +1,1 @@
+import{a as s,g as d}from"./i18n.CkHniaQF.js";function n(){const t=document.querySelectorAll("[data-roadmap]"),a=d(),r=a==="ja"?"jp":a;t.forEach(o=>{const e=o.dataset.roadmap;e==="kingsorigin"&&(o.href=`/rm/kingsorigin_${r}`),e==="dungeon_depths"&&(o.href=`/rm/dungeon_depths_${a==="ja"?"ja":a}`)})}n();s(n);document.addEventListener("astro:page-load",n);
